@@ -11,11 +11,11 @@
     <title></title>
     <asset:javascript src="jquery.js" />
     <asset:javascript src="grails-datatables.js" />
-    %{--<asset:javascript src="jquery.dataTables.js"/>--}%
 </head>
 
 <body>
-<dt:datatable  name="dtexamples" serverDataLoad="true" controller="dtexample.DtController" dataAction="index">
+
+<dt:datatable  name="dtexamples" serverDataLoad="true" controller="Dt" dataAction="index">
     <dt:column name="firstName" />
     <dt:column name="lastName" />
     <dt:column name="email" />
